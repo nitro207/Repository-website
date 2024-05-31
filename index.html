@@ -1,12 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
 </head>
-<header><script src="navbar.js" defer></script></header>
 <body>
+
+<div>
+    <link rel="stylesheet" href="navbar.css">
+    <nav>
+        <ul>
+            <li class="navblock"><a href="index.html">HOME</a></li>
+            <li class="navblock"><a href="projects.html">PROJECTS</a></li>
     
+    
+        </ul>
+    </nav>
+    <link rel="stylesheet" href="indexsheet.css">
+</div>
+    
+<div class="maintext">
+    <h1 class="title">About</h1>
+    <p class="abouttext">
+        This is Nitro207's Github page. The main purpose of this page it to test html, css, and javascript so I can learn more about the languages and get more experience with web development.
+    </p>
+</div>
+<div class="imagecontainer">
+    <img src="/images/Bliss_(Windows_XP).png" class="bliss">
+</div>
+
+
 </body>
+<footer>
+    <button onclick="dont()" class="dontbutton">dont</button>
+</footer>
+<script>
+    function dont(){
+        window.location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUXbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXA%3D");
+    }
+</script>
+
 </html>
