@@ -1,12 +1,14 @@
+head{
+    width: 100%;
+}
+
 nav ul{
     background-color: #4b3832;
     margin: 0px;
     border: 0px;
     outline: 0px;
     padding: 15px 15px 15px 5px;
-    display: flexbox;
-    text-align: center;
-
+    text-align: left;
 }
 nav ul li{
     display: inline-block;
